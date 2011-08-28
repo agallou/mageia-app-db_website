@@ -1,0 +1,186 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap-1.1.1.min.css">
+		<link rel="stylesheet" href="main.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="menu.js"></script>
+		<title>Mageia Application Database</title>
+	</head>
+	<body>
+		<div class="topbar">
+
+      <div class="fill">
+        <div class="container">
+          <h3><a href="#">Mageia Application Database</a></h3>
+          <ul>
+            <li class="active"><a href="#">Overview</a></li>
+            <li><a href="#about">About</a></li>
+            <li id="link_wiki"><a href="#">Wiki</a></li>
+            <li><a href="#demo">Demo</a></li>
+            <li id="link_bugtracker"><a href="#">Bug Tracker</a></li>
+            <li><a href="#sourcecode">Source Code</a></li>
+            <li id="link_ci"><a href="http://hudson.zone-ttp.com/">CI</a></li>
+						<li><a href="#contact">Contact</a></li>
+<!--  -->
+          </ul>
+        </div>
+      </div>
+		</div>
+
+<div id="frame" style="display:none">
+	<iframe id="iframe" src="" width="99%" height="90%" style="margin-top:38px">
+	</iframe>
+</div>
+
+<div id="content">
+			<div id="masthead">
+      <div class="inner">
+        <div class="container">
+          <h1>Mageia Application Database</h1>
+          <p class="lead">
+A social package browser
+                     </p>
+        </div><!-- /container -->
+      </div>
+    </div>
+
+
+<div class="quickstart">
+      <div class="container">
+        <div class="row">
+          <div class="span5 columns">
+            <h6>Browse Packages</h6>
+            <p>Allow to browse the package database, provide the main informations about packages, like any other distribution does.</p>
+          </div>
+          <div class="span5 columns">
+            <h6>Focus on Users</h6>
+            <p>Focus on interaction between users, testers and packagers (Backports requests, new soft requests, testing requests..)</p>
+          </div>
+          <div class="span5 columns">
+            <h6>Configurable</h6>
+            <p>Customizable user notifications on your home page, RSS feed or e-mail (new backport available for your preferred soft, new update candidate available...)</p>
+          </div>
+        </div><!-- /row -->
+      </div>
+    </div>
+
+			<div class="container">
+
+	<section id="about">
+  <div class="page-header">
+    <h1>About</h1>
+  </div>
+  <div class="row">
+    <div class="span6 columns">
+      <h3>Screenshot</h3>
+			<img src="screenshot.png" />
+    </div>
+    <div class="span5 columns">
+      <h3>Functionalities</h3>
+      <p>
+				See the full record of user needs and potential functionalities 
+				<a href="http://mageia-app-db.tuxette.fr/projects/mageia-app-db/wiki/NeedsAndFunctionalities">here</a>
+			</p>
+    </div>
+    <div class="span5 columns">
+      <h3>Contributing</h3>
+      <p>We welcome all types of contributions : </p>
+      <ul>
+        <li>ideas</li>
+        <li>advice</li>
+        <li>code</li>
+        <li>testing</li>
+				<li>translation</li>
+      </ul>
+    </div>
+  </div><!-- /row -->
+	</section>
+
+
+<section id="demo">
+	<div class="page-header">
+		<h1>Demo instances</h1>
+	</div>
+
+<p>You can find nightly (UTC+1) updated instances with test data, hosted by <a href="http://www.librepc.com/">Libre PC</a>, at
+master branch : <a href="http://88.191.121.20/madb/master/">http://88.191.121.20/madb/master/</a></p>
+
+<p>Sometimes older but more stable test instances are maintained for mageia, mandriva, opensuse and fedora RPMs :</p>
+<ul>
+<li>mageia : <a href="http://88.191.121.20/madb/mageia/">http://88.191.121.20/madb/mageia/</a></li>
+<li>mandriva : <a href="http://88.191.121.20/madb/mandriva/">http://88.191.121.20/madb/mandriva/</a></li>
+<li>fedora : <a href="http://88.191.121.20/madb/fedora/">http://88.191.121.20/madb/fedora/</a></li>
+<li>opensuse : <a href="http://88.191.121.20/madb/opensuse/">http://88.191.121.20/madb/opensuse/</a></li>
+</ul>
+<p>
+Of course it's only a work in progress. However, comments are welcome :)
+	</p>
+</section>
+
+
+
+
+
+				<section id="sourcecode">
+					<div class="page-header">
+				    <h1>Source code <small>Where to get it</small></h1>
+				  </div>
+
+<p>This is a PHP5 project using symfony 1.4 as a framework.</p>
+<p>Source code is hosted on <a href="https://gitorious.org/mageia-app-db">gitorious</a>. You can clone the repository with :</p>
+<blockquote>
+<p>
+git clone git://gitorious.org/mageia-app-db/mageia-app-db.git
+</p>
+</blockquote>
+<p>You can also fork it on <a href="https://github.com/agallou/mageia-app-db/">github</a>.</p>
+				</section>
+
+
+
+				<section id="contact">
+					<div class="page-header">
+				    <h1>Contact</h1>
+				  </div>
+			<p><a href="http://mageia-app-db.tuxette.fr/projects/mageia-app-db/wiki/Team">The Team</a></p>
+<h3>IRC</h3>
+<ul>
+<li>You can often find us on irc.freenode.net, #mageia and #mageia-fr : Stormi (project lead) and ttp (main developer)</li>
+<li>irc : we try to be available and meet on <strong>#madb</strong> on freenode. (quick) meeting each thursday at 20:00 UTC.</li>
+</ul>
+<h3>Mailing List</h3>
+<ul>
+<li>Mailing list : <a href="https://listes.lautre.net/cgi-bin/mailman/listinfo/madb">https://listes.lautre.net/cgi-bin/mailman/listinfo/madb</a></li>
+</ul>
+<h3>Mail</h3>
+<ul>
+<li>if you need to e-mail us directly, send a mail to stormi ((AT)) laposte ((DOT)) net or adriengallou ((AT)) gmail ((DOT)) com.</li>
+</ul>
+
+
+				</section>
+
+			</div>
+
+
+
+
+<div id="footer">
+      <div class="inner">
+        <div class="container">
+          <p class="right"><a href="#">Back to top</a></p>
+          <p>
+            Licensed under the <a href="http://www.gnu.org/licenses/agpl.html" target="_blank">GNU Affero General Public Licence</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    </div>
+</div><!-- content -->
+	</body>
+</html>
