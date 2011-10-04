@@ -28,7 +28,7 @@ $('li#link_wiki').click(function(e) {
 		e.preventDefault();
 	});
 $('li#link_ci').click(function(e) {
-		$('#iframe').attr('src', 'http://hudson.zone-ttp.com');
+		$('#iframe').attr('src', 'http://www.madb.org:8080');
 		$('#frame').show();
 		$('#content').hide();
 		e.preventDefault();
