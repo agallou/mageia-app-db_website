@@ -12,15 +12,6 @@ $('.topbar li').not('li#link_bugtracker').click(function(e) {
 		$('div.topbar li').removeClass('active');
 		$(this).addClass('active');
 });
-$('li#link_bugtracker').click(function(e) {
-		$('#iframe').attr('src', 'http://mageia-app-db.tuxette.fr/projects/mageia-app-db/issues');
-		$('#frame').show();
-		$('#content').hide();
-		$('div.topbar li').removeClass('active');
-		$(this).addClass('active');
-
-		e.preventDefault();
-	});
 $('li#link_wiki').click(function(e) {
 		$('#iframe').attr('src', 'http://mageia-app-db.tuxette.fr/projects/mageia-app-db/wiki');
 		$('#frame').show();
